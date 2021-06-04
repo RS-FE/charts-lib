@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.chart-container {
+			padding-top: 10px;
+		}
+
+		.chart-title {
+			padding: 0 10px;
+			line-height: 30px;
+			font-size: 14px;
+			color: #333;
+		}
+
+		.chart-group {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.chart-wrap {
+			margin: 10px;
+			width: 300px;
+			height: 300px;
+			border: 1px solid #f30;
+		}
+
+		.map-wrap {
+			margin: 10px;
+			width: 620px;
+			height: 450px;
+			border: 1px solid #f30;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="chart-container">
+		<div class="chart-title">地图 map</div>
+		<div class="chart-group">
+			<div class="chart-wrap map-wrap">
+				<div id="map-1" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap">
+				<div id="map-2" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap">
+				<div id="map-3" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap">
+				<div id="map-4" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap">
+				<div id="map-5" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap">
+				<div id="map-6" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap" style="background-color: #003f6a;">
+				<div id="map-7" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap" style="background-color: #003f6a;">
+				<div id="map-8" style="width: 100%; height: 100%;"></div>
+			</div>
+			<div class="chart-wrap map-wrap" style="background-color: #003f6a;">
+				<div id="map-9" style="width: 100%; height: 100%;"></div>
+			</div>∏
+		</div>
+	</div>
+	<script src="./assets/js/jquery-1.11.2.js"></script>
+	<script src="./assets/js/echarts.min.js"></script>	
+	<!-- 百度 -->
+	<script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&amp;ak=tM5CSXWMIRiQ581SF5kWOlhRKPFNEWEX&amp;__ec_v__=20190126"></script>
+	<script type="text/javascript" src="https://api.map.baidu.com/getscript?v=2.0&amp;ak=tM5CSXWMIRiQ581SF5kWOlhRKPFNEWEX&amp;services=&amp;t=20190622163250"></script>
+	<script src="./assets/js/bmap.min.js"></script>
+	<!-- 百度 -->
+	<!-- 下钻 -->
+	<script src="https://webapi.amap.com/maps?v=1.4.11&amp;key=35a871e5905ecfd749bd998448b9cd03"></script>
+	<script src="https://webapi.amap.com/maps?v=1.4.11&amp;key=35a871e5905ecfd749bd998448b9cd03&amp;plugin=AMap.DistrictSearch"></script>
+	<script src="https://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+	<!-- 下钻 -->
+	<!-- 3d -->
+	<script src="./assets/js/echarts-gl.js"></script>
+	<script src="./assets/js/guangdong.js"></script>
+	<!-- 3d -->
+	<script src="./assets/js/map.js"></script>
+</body>
+
+</html>
